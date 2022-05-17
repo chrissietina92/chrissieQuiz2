@@ -1,0 +1,127 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  
+  <body>
+
+    <h1>How well do you know Chrissie?</h1>
+    <h2>Put your knowledge to the test. </h2>
+
+    <form name="quizzy" action="/action_page.php">
+
+      <p>What London borough was Chrissie born in? </p>
+
+      <div id="firstq">
+        <input type="radio" class="born" name="born" value="A" checked>
+        <label for="A" class="borough">Croydon</label><br>
+
+        <input type="radio" class="born" name="born" value="B">
+        <label id="correct1" class="borough" for="B">Bromley</label><br>
+
+        <input type="radio" class="born" name="born" value="C">
+        <label for="C" class="borough">Lewisham</label><br>
+
+        <input type="radio" class="born" name="born" value="D">
+        <label for="D" class="borough">Wandsworth</label><br>
+      </div>
+
+      <p>How many cats would Chrissie own if should could?</p>
+
+      <div id="secq">
+        <input type="radio" class="cat" name="cats" value="E" checked>
+        <label for="E" class="kitties">1</label><br>
+
+        <input type="radio" class="cat" name="cats" value="F">
+        <label for="F" class="kitties">2</label><br>
+
+        <input type="radio" class="cat" name="cats" value="G">
+        <label id="correct2" class="kitties" for="G">All the cats!</label><br>
+
+        <input type="radio" class="cat" name="cats" value="H">
+        <label for="H" class="kitties">0</label><br>
+
+      </div>
+
+      <p>What country has Chrissie not lived in?</p>
+
+      <div id="thirdq">
+        <input type="radio" class="country" name="country" value="I" checked>
+        <label for="I" class="placename">New Zealand</label><br>
+
+        <input type="radio" class="country" name="country" value="J">
+        <label for="J" class="placename">Canada</label><br>
+
+        <input type="radio" class="country" name="country" value="K">
+        <label for="K" class="placename">Australia</label><br>
+
+        <input type="radio" class="country" name="country" value="L">
+        <label id="correct3" class="placename" for="L">USA</label><br>
+      </div>
+
+      <p>What is Chrissie's favourite colour?</p>
+
+      <div id="forthq">
+        <input type="radio" class="colour" name="colour" value="M" checked>
+        <label for="M" class="blue" checked>Green</label><br>
+
+        <input type="radio" class="colour" name="colour" value="N">
+        <label for="N" id="correct4" class="blue">Blue</label><br>
+
+        <input type="radio" class="colour" name="colour" value="O">
+        <label for="O" class="blue">Pink</label><br>
+
+        <input type="radio" class="colour" name="colour" value="P">
+        <label for="P" class="blue">Purple</label><br><br>
+      </div>
+
+      <p>Which of the following is one of Chrissie's top 5 favourite animals?</p>
+
+      <div id="fifthq">
+        <input type="radio" class="animal" name="animal" value="Q" checked>
+        <label for="Q" class="cow" checked>Goat</label><br>
+
+        <input type="radio" class="animal" name="animal" value="R">
+        <label for="R" class="cow">Sheep</label><br>
+
+        <input type="radio" class="animal" name="animal" value="S">
+        <label for="S" class="cow">Horse</label><br>
+
+        <input type="radio" class="animal" name="animal" value="T">
+        <label for="T" id="correct5" class="cow">Cow</label><br><br>
+      </div>
+
+      <p>What is Chrissie's middle name?</p>
+
+      <div id="sixthq">
+        <input type="radio" class="middle" name="middle" value="U" checked>
+        <label for="U" id="correct6" class="namez" checked>Marian</label><br>
+
+        <input type="radio" class="middle" name="middle" value="V">
+        <label for="V" class="namez">Mary</label><br>
+
+        <input type="radio" class="middle" name="middle" value="W">
+        <label for="W" class="namez">Millie</label><br>
+
+        <input type="radio" class="middle" name="middle" value="X">
+        <label for="X" class="namez">Madeline</label><br><br>
+      </div>
+
+      <button type="button" id="submitButton" onclick="myFunction()">Submit</button>
+      <!--<button type="button" id="refresh" onClick="history.go(0)" VALUE="Refresh" >Try again</button>-->
+
+    </form>
+
+    <div id="end">
+      <p id="demo"></p>
+    </div>
+    
+    <img id="myImage" src="https://i.imgur.com/TkGJBo0.jpg" alt="chrissie">
+    
+
+  </body>
+</html>
