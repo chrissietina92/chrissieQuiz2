@@ -1,2 +1,2 @@
-# chrisseQuiz2
+# chrissieQuiz2
 A buzzfeed style quiz to test your Chrissie knowledge
